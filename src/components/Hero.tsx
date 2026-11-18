@@ -55,7 +55,7 @@ export function Hero() {
               className="group inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-accent-400 px-8 py-3.5 font-display font-semibold text-ink-950 transition-all duration-200 hover:bg-accent-300 hover:shadow-xl hover:shadow-accent-500/25"
             >
               <Download className="w-5 h-5 transition-transform duration-200 group-hover:translate-y-0.5" />
-              test
+              Download Latest 1.5.2
             </a>
             <a
               href={LINKS.discord}
