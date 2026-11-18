@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink-950 text-slate-300 antialiased;
+  font-feature-settings: 'cv11', 'ss01';
+}
+
+::selection {
+  @apply bg-accent-500/40 text-white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0c14;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a42;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a55;
+}
+
+[data-theme='original'] {
+  background: #000;
+  color: #fff;
+}
+
+/* Page background: pure black */
+[data-theme='original'] [class*='bg-ink-950'] {
+  background-color: #000 !important;
+}
+
+/* Boxes: dark gray */
+[data-theme='original'] [class*='bg-ink-'],
+[data-theme='original'] [class*='bg-accent-'],
+[data-theme='original'] [class*='bg-blueish-'],
+[data-theme='original'] [class*='bg-emerald-'],
+[data-theme='original'] [class*='bg-amber-'],
+[data-theme='original'] [class*='bg-red-'] {
+  background-color: #1c1c1c !important;
+}
+
+[data-theme='original'] [class~='bg-transparent'] {
+  background-color: transparent !important;
+}
+
+[data-theme='original'] [class*='bg-gradient'] {
+  background-image: none !important;
+  background-clip: border-box !important;
+  -webkit-background-clip: border-box !important;
+  -webkit-text-fill-color: #fff !important;
+}
+
+/* Outlines: light gray, lighter on hover */
+[data-theme='original'] [class*='border-'] {
+  border-color: #a3a3a3 !important;
+}
+
+[data-theme='original'] [class*='border-']:hover {
+  border-color: #d4d4d4 !important;
+}
+
+[data-theme='original'] [class~='border-transparent'] {
+  border-color: transparent !important;
+}
+
+[data-theme='original'] [class*='text-'] {
+  color: #fff !important;
+}
+
+[data-theme='original'] [data-theme-switcher] [aria-pressed='true'] {
+  background-color: #d4d4d4 !important;
+  color: #000 !important;
+}
+
+[data-theme='original'] [class*='bg-accent-'] {
+  border: 1px solid #a3a3a3;
+}
+
+[data-theme='original'] [class*='bg-accent-']:hover {
+  border-color: #d4d4d4;
+}
