@@ -1,4 +1,4 @@
-import { MessageCircle, Youtube, Download, HelpCircle, ShieldCheck } from 'lucide-react';
+import { MessageCircle, Youtube, Download, HelpCircle, ShieldCheck, Heart } from 'lucide-react';
 import { LINKS } from '@/lib/links';
 import type { Theme } from '@/components/ThemeSwitcher';
 
@@ -39,6 +39,7 @@ export function Footer({ theme }: FooterProps) {
               {[
                 { icon: MessageCircle, label: 'Discord', href: LINKS.discord, external: true },
                 { icon: Youtube, label: 'YouTube', href: LINKS.youtube, external: true },
+                { icon: Heart, label: 'Patreon', href: LINKS.patreon, external: true },
                 { icon: Download, label: 'Download', href: LINKS.downloadLatest, external: false },
               ].map((l) => (
                 <li key={l.label}>
