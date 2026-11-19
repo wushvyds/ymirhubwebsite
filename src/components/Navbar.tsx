@@ -63,7 +63,7 @@ export function Navbar({ theme, onThemeChange }: NavbarProps) {
             href={LINKS.patreon}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-white bg-[#FF424D] hover:bg-[#E63B45] font-semibold transition-all duration-200 hover:shadow-lg hover:shadow-[#FF424D]/30"
+            className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-ink-950 bg-accent-400 hover:bg-accent-300 transition-all duration-200 hover:shadow-lg hover:shadow-accent-500/30"
           >
             <Heart className="w-4 h-4" />
             <span className="hidden sm:inline">Patreon</span>
