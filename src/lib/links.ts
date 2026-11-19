@@ -1,5 +1,5 @@
 export const LINKS = {
   discord: 'https://discord.com/invite/bZpyDSGPYD',
   youtube: 'https://www.youtube.com/@@SOULisCOOL1',
-  downloadLatest: 'https://cdn.discordapp.com/attachments/1572643408558821490/1572664198477914132/ymir.exe?ex=6aff312b&is=6afddfab&hm=edf1c80c1f0a2432d90fd7c27f799f63a35a1efc264bf8698e355773d6e0981b&',
+  downloadLatest: 'https://cdn.discordapp.com/attachments/1572643408558821490/1572771331748012112/ymir.exe?ex=6aff94f2&is=6afe4372&hm=ddc9d10d0a01c061b5baf97b7f5c6af74fbd9e54e9edc1fa7e5491ea672616c5&',
 } as const;
