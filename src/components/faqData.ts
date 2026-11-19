@@ -24,7 +24,7 @@ export const FAQS: FaqItem[] = [
   {
     q: 'Will I get banned for using it?',
     a: [
-      "According to the developers, macros are not bannable unless they are used for leaderboard purposes. However, always follow the game's current rules and use the macro responsibly. Rules and enforcement policies may change.",
+      "According to the developers, macros are not bannable unless they are used for leaderboard purposes. However, always follow the game's current rules and use the macro responsibly. Rules and enforcement policies may change. Also it is recommended to not use the macro at all times since 2 players got flagged for using it. If you get flagged its easily appealable",
     ],
   },
   {
