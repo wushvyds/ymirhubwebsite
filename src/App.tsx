@@ -8,6 +8,7 @@ import { Faq } from '@/components/Faq';
 import { Footer } from '@/components/Footer';
 import type { Theme } from '@/components/ThemeSwitcher';
 import { useEffect, useState } from 'react';
+import Reviews from '@/pages/Reviews';
 
 const THEME_STORAGE_KEY = 'ymir-theme';
 
@@ -17,7 +18,7 @@ function getSavedTheme(): Theme {
     : 'divine';
 }
 
-function App() {
+function HomePage() {
   const [theme, setTheme] = useState<Theme>(getSavedTheme);
 
   useEffect(() => {
@@ -41,6 +42,11 @@ function App() {
       <Footer theme={theme} />
     </div>
   );
+}
+
+function App() {
+  const path = window.location.pathname.replace(/\/+$/, '') || '/';
+  return path === '/reviews' ? <Reviews /> : <HomePage />;
 }
 
 export default App;
