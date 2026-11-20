@@ -9,7 +9,7 @@ export type SiteReview = {
 };
 
 export const TOP_REVIEWS: SiteReview[] = [
-  { id: '1', name: '', review: '' },
+  { id: '1', name: 'wushvyds', review: 'test' },
   { id: '2', name: '', review: '' },
   { id: '3', name: '', review: '' },
   { id: '4', name: '', review: '' },
