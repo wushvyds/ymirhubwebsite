@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { MessageCircle, Youtube, Heart } from 'lucide-react';
+import { MessageCircle, Youtube, Heart, Star } from 'lucide-react';
 import { LINKS } from '@/lib/links';
 import { ThemeSwitcher, type Theme } from '@/components/ThemeSwitcher';
 
@@ -51,6 +51,22 @@ export function Navbar({ theme, onThemeChange }: NavbarProps) {
             <span className="hidden sm:inline">Discord</span>
           </a>
           <a
+            href="/reviews"
+            className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-slate-300 bg-ink-800/80 border border-ink-600/60 hover:bg-ink-700 hover:border-accent-400/50 hover:text-white transition-all duration-200"
+          >
+            <Star className="w-4 h-4 text-accent-300" />
+            <span className="hidden sm:inline">Reviews</span>
+          </a>
+          <a
+            href={LINKS.patreon}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-slate-300 bg-ink-800/80 border border-ink-600/60 hover:bg-ink-700 hover:border-accent-400/50 hover:text-white transition-all duration-200"
+          >
+            <Heart className="w-4 h-4 text-accent-300" />
+            <span className="hidden sm:inline">Patreon</span>
+          </a>
+          <a
             href={LINKS.youtube}
             target="_blank"
             rel="noopener noreferrer"
@@ -58,15 +74,6 @@ export function Navbar({ theme, onThemeChange }: NavbarProps) {
           >
             <Youtube className="w-4 h-4" />
             <span className="hidden sm:inline">YouTube</span>
-          </a>
-          <a
-            href={LINKS.patreon}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold text-ink-950 bg-accent-400 hover:bg-accent-300 transition-all duration-200 hover:shadow-lg hover:shadow-accent-500/30"
-          >
-            <Heart className="w-4 h-4" />
-            <span className="hidden sm:inline">Patreon</span>
           </a>
           </div>
         </div>
