@@ -13,7 +13,7 @@ export const TOP_REVIEWS: SiteReview[] = [
   { id: '2', name: 'Манго Бонапарт', review: 'Peak macro' },
   { id: '3', name: '𝖜𝖚𝖘𝖍𝖛𝖞𝖉𝖘', review: 'Good macro' },
   { id: '4', name: '𝖜𝖚𝖘𝖍𝖛𝖞𝖉𝖘', review: 'W macro' },
-  { id: '5', name: '', review: '' },
+  { id: '5', name: '😎Cool Oreo😎', review: 'Boi macro so tuff' },
   { id: '6', name: '', review: '' },
   { id: '7', name: '', review: '' },
   { id: '8', name: '', review: '' },
