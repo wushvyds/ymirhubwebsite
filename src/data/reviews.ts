@@ -9,8 +9,8 @@ export type SiteReview = {
 };
 
 export const TOP_REVIEWS: SiteReview[] = [
-  { id: '1', name: '𝖜𝖚𝖘𝖍𝖛𝖞𝖉𝖘', review: 'Good macro' },
-  { id: '2', name: '', review: '' },
+  { id: '1', name: '𝖜𝖚𝖘𝖍𝖛𝖞𝖉𝖘', review: 'Best Macro' },
+  { id: '2', name: '𝖜𝖚𝖘𝖍𝖛𝖞𝖉𝖘', review: 'Good macro' },
   { id: '3', name: '', review: '' },
   { id: '4', name: '', review: '' },
   { id: '5', name: '', review: '' },
