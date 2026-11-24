@@ -18,5 +18,5 @@ export const TOP_REVIEWS: SiteReview[] = [
   { id: '7', name: '𝖜𝖚𝖘𝖍𝖛𝖞𝖉𝖘', review: 'Good macro' },
   { id: '8', name: 'Freaky Juice', review: 'Macro so good I might name my first child Soul ✌🏼' },
   { id: '9', name: '😎Cool Oreo😎', review: 'Boi macro so tuff' },
-  { id: '10', name: '', review: '' }
+  { id: '10', name: 'Epic', review: 'very great macro i give it 1 gazillion stars' }
 ];
