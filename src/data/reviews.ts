@@ -15,8 +15,8 @@ export const TOP_REVIEWS: SiteReview[] = [
   { id: '4', name: 'AshZaNoob', review: 'Before using macro, I was a lonely beta chud loser with no cosm, scrolls, frags, or vessels. Now I am the most sigma rich cool amazingly awesome person ever, even EK was begging me to give him stuff.' },
   { id: '5', name: 'Freaky Juice', review: 'Amazing Macro sadly soul won’t take my bobux' },
   { id: '6', name: '𝖜𝖚𝖘𝖍𝖛𝖞𝖉𝖘', review: 'Good macro' },
-  { id: '7', name: 'Манго Бонапарт', review: 'Peak macro' },
-  { id: '8', name: 'Freaky Juice', review: 'Macro so good I might name my first child Soul ✌🏼' },
+  { id: '7', name: 'Freaky Juice', review: 'Macro so good I might name my first child Soul ✌🏼' },
+  { id: '8', name: 'Манго Бонапарт', review: 'Peak macro' },
   { id: '9', name: '😎Cool Oreo😎', review: 'Boi macro so tuff' },
   { id: '10', name: 'Epic', review: 'very great macro i give it 1 gazillion stars' }
 ];
